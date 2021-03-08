@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(36, 30, 30);
+}
+/*Cabecera de la página*/
+nav{
+  background-color: #444;
+  margin-bottom: 5%;
+}
+/*Contenido de la página*/
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+ul{
+  list-style: none;
+}
+/*Pie de la página*/
+#contacto p, h5{
+  color: white;
+}
+i{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
