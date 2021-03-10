@@ -7,3 +7,12 @@ function date(){
 }
 
 document.addEventListener("DOMLoadedContent", date());
+
+function botonExpandir(){
+  let elemento = document.getElementById("boton-expandir");
+  if(elemento.textContent === "+"){
+    elemento.textContent = "-";
+  }else{
+    elemento.textContent = "+";
+  }
+}
