@@ -22,3 +22,15 @@ i{
   font-size: 35px;
   margin-bottom: 15px;
 }
+i:hover{
+  color: aliceblue;
+}
+
+@media (max-width: 768px){
+  #bello-rostro{
+    width: 150px;
+  }
+  #boton-expandir{
+    color: white;
+  }
+}
